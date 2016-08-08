@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4e9a4d95ef4f84959a33d9f458c741da
-timeCreated: 1470568201
+timeCreated: 1470661245
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -25,6 +25,23 @@ TextureImporter:
     21300036: Spike_5
     21300038: platform
     21300040: Spike_6
+    21300042: Tiles_7
+    21300044: Tiles_8
+    21300046: Tiles_9
+    21300048: Tiles_10
+    21300050: Tiles_11
+    21300052: Tiles_12
+    21300054: Spikes_bottom
+    21300056: Spikes_right
+    21300058: Spikes_top
+    21300060: Spikes_left
+    21300062: Tiles_17
+    21300064: Tiles_18
+    21300066: Tiles_19
+    21300068: Tiles_20
+    21300070: Tiles_21
+    21300072: Tiles_22
+    21300074: Tiles_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -79,7 +96,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Tiles_1
@@ -101,7 +118,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Tiles_3
@@ -112,7 +129,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Tiles_4
@@ -134,7 +151,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Tiles_6
@@ -145,10 +162,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: liana_0
+    - name: Tiles_7
       rect:
         serializedVersion: 2
         x: 0
@@ -156,10 +173,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: liana_1
+    - name: Tiles_8
       rect:
         serializedVersion: 2
         x: 16
@@ -167,10 +184,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: liana_2
+    - name: Tiles_9
       rect:
         serializedVersion: 2
         x: 32
@@ -178,10 +195,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: plant_0
+    - name: Tiles_10
       rect:
         serializedVersion: 2
         x: 48
@@ -189,10 +206,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: plant_1
+    - name: Tiles_11
       rect:
         serializedVersion: 2
         x: 64
@@ -200,10 +217,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: plant_2
+    - name: Tiles_12
       rect:
         serializedVersion: 2
         x: 80
@@ -211,10 +228,10 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Spike_0
+    - name: Spikes_bottom
       rect:
         serializedVersion: 2
         x: 0
@@ -225,7 +242,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Spike_1
+    - name: Spikes_right
       rect:
         serializedVersion: 2
         x: 16
@@ -236,7 +253,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Spike_2
+    - name: Spikes_top
       rect:
         serializedVersion: 2
         x: 32
@@ -247,7 +264,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Spike_3
+    - name: Spikes_left
       rect:
         serializedVersion: 2
         x: 48
@@ -258,29 +275,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Spike_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Spike_5
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: platform
+    - name: Tiles_17
       rect:
         serializedVersion: 2
         x: 0
@@ -291,15 +286,48 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Spike_6
+    - name: Tiles_18
       rect:
         serializedVersion: 2
-        x: 96
-        y: 80
+        x: 0
+        y: 48
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

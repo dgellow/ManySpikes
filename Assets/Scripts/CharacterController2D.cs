@@ -1,10 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-enum Directions {
-	Right, Left
-}
-
 public class CharacterController2D : MonoBehaviour {
 
 	public float maxSpeed = 10f;
