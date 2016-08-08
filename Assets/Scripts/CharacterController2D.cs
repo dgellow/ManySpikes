@@ -8,8 +8,8 @@ enum Directions {
 public class CharacterController2D : MonoBehaviour {
 
 	public float maxSpeed = 10f;
-	public float lowJumpForce = 250;
-	public float highJumpForce = 500;
+	public float lowJumpVelocity = 250;
+	public float highJumpVelocity = 500;
 	public Transform groundCheck;
 	public LayerMask groundLayer;
 
@@ -42,12 +42,15 @@ public class CharacterController2D : MonoBehaviour {
 
 	void Update () {
 		if (grounded) {
-			if (Input.GetButton ("Fire2")) {
+			var newVelocity = new Vector2 (rigidbody2D.velocity.x, rigidbody2D.velocity.y);
+			if (Input.GetButtonDown ("LowJump")) {
 				grounded = false;
-				rigidbody2D.AddForce (new Vector2(0, lowJumpForce));
-			} else if (Input.GetButton ("Fire1")) {
+				newVelocity.y = lowJumpVelocity;
+				rigidbody2D.velocity = newVelocity;
+			} else if (Input.GetButtonDown ("HighJump")) {
 				grounded = false;
-				rigidbody2D.AddForce (new Vector2(0, highJumpForce));
+				newVelocity.y = highJumpVelocity;
+				rigidbody2D.velocity = newVelocity;
 			}
 		}
 	}
