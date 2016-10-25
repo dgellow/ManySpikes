@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
@@ -53,10 +54,10 @@ public class GameController : MonoBehaviour {
 		currentLives -= 1;
 
 		if (currentLives > 0) {
-			Application.LoadLevel (Application.loadedLevel);
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		} else {
 			currentLives = 0;
-			Application.LoadLevel ("Game Over");
+			SceneManager.LoadScene ("Game Over");
 		}
 	}
 

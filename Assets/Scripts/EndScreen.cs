@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class EndScreen: MonoBehaviour {
 
@@ -8,7 +9,7 @@ public class EndScreen: MonoBehaviour {
 	void Update () {
 		if (Input.anyKeyDown) {
 			GameController.gameState.Reset ();
-			Application.LoadLevel (nextScene);
+			SceneManager.LoadScene (nextScene);
 		}
 	}
 }
